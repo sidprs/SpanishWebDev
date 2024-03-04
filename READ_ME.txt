@@ -1,5 +1,5 @@
 Welcome to Spanish Web Dev 
------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 
 Go to HOW_TO if you want to learn to clone repo
 
@@ -26,7 +26,7 @@ The github has two main classes
 
 
 Notes
------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 
 -Securing stable domain is kinda important for when we do Back end
 -Let us focus on front end stuff before that.
@@ -35,7 +35,7 @@ Notes
 
 
 HOW_TO
------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 Step 1:
 
 Make ssh key : https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
@@ -49,8 +49,6 @@ Clone repo:
 You have 2 options
 		1.			git clone git@github.com:sidprs/SpanishWebDev.git
 		2.          git clone https://github.com/sidprs/SpanishWebDev.git
-
-
 Step 3:
 
 Have fun
