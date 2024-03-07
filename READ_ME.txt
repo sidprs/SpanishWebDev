@@ -29,7 +29,7 @@ Branch Created - Ownership - Do not edit other peoples branches
 Front End <Number>                               Back End <Number>
 
 FE1 - Sid										 BE1 - Sid
-FE2 - Pranav									 ..
+FE2 - Pranav									         ..
 FE3 - Pablo										 .. 
 FE4 - Brian										 ..			
 FE5 - Cadon
