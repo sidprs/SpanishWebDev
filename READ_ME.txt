@@ -1,4 +1,3 @@
-FE2: Pranav's branch
 Welcome to Spanish Web Dev 
 --------------------------------------------------------------------------------------------------
 
@@ -23,6 +22,17 @@ The github has two main classes
 
 : git clone : ssh   -> Fastest way to setup
 : git copilot       -> Do not use this as the latency for web developemnt is terrible
+
+-----------------------------------------------------------------------------------------------------
+Branch Created - Ownership - Do not edit other peoples branches
+
+Front End <Number>                               Back End <Number>
+
+FE1 - Sid										 BE1 - Sid
+FE2 - Pranav									 ..
+FE3 - Pablo										 .. 
+FE4 - Brian										 ..			
+FE5 - Cadon
 
 
 
