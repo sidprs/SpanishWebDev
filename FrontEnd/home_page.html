@@ -1,28 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Title and Buttons</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpanishSite</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .site-title {
+            margin: 0;
+        }
+
+        .signup-btn {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+
+        .container-60 {
+            width: 60%;
+            float: left;
+        }
+
+        .container-40 {
+            width: 40%;
+            float: left;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .login-form {
+            margin-top: 20px;
+        }
+
+        .login-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .login-form input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .login-form small {
+            display: block;
+            margin-top: 10px;
+            font-size: 80%;
+        }
+
+        .login-form small a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
 
-  <h1>Spanish WebDevl</h1>
+    <header>
+        <h1 class="site-title">SpanishSite</h1>
+        <a href="#" class="signup-btn">Sign up today</a>
+    </header>
 
-  <!-- Button 1 -->
-  <button type="Dashboard">Button 1</button>
+    <div class="container container-60">
+        <h2>Pictures and What We Do</h2>
+        <p>Discover what we have to offer.</p>
+    </div>
 
-  <!-- Button 2 -->
-  <button type="Grades">Button 2</button>
+    <div class="container container-40">
+        <h2></h2>
+        <div class="login-form">
+            <h2>Teacher Log in:</h2>
+            <label for="teacher-username">Username or Email</label>
+            <input type="text" id="teacher-username" placeholder="Username or Email">
 
-  <!-- Button 3 -->
-  <button type="Learn">Button 3</button>
-  
-  <!-- Button 4 -->
-  <button type="FlashCard">Button 4</button>
+            <label for="teacher-password">Password</label>
+            <input type="password" id="teacher-password" placeholder="Password">
 
-  
-  <!-- Button 5 -->
-  <button type="IDK BRUH ANYTHING U WANT :3">Button 5</button>
+            <small>
+                <a href="#">Forgot username</a>
+                <a href="#">Forgot password</a>
+                <a href="#">Need Help?</a>
+            </small>
+        </div>
+
+        <div class="login-form">
+            <h2>Student Log in:</h2>
+            <label for="student-username">Username or Email</label>
+            <input type="text" id="student-username" placeholder="Username or Email">
+
+            <label for="student-password">Password</label>
+            <input type="password" id="student-password" placeholder="Password">
+
+            <small>
+                <a href="#">Forgot username</a>
+                <a href="#">Forgot password</a>
+                <a href="#">Need Help?</a>
+            </small>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
 </body>
 </html>
