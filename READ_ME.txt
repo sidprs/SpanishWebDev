@@ -56,5 +56,9 @@ Have fun
 Make sure you create new branch when adding files / editing
 use git checkout <branch_you_made> and yay
 
-
+to push changes to the branch:
+	git add .
+	git status
+	git commit -am "<message>"
+	git push origin <branch>
 
