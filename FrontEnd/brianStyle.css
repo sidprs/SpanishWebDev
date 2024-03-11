@@ -48,3 +48,9 @@ body, html {
     display: table;
     clear: both;
 }
+
+.color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+}
