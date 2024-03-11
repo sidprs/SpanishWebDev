@@ -11,32 +11,59 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Header styles */
-header {
+/* START OF BRIAN NAVBAR */
+.navbar {
     background-color: #FFA500;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    z-index: 1000;
 }
 
-.logo img {
-    height: 60px;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
+.navbar .logo {
+    text-indent: 40px;
     display: inline-block;
-    margin-right: 20px;
+    color: white;
+    padding: 25px;
+    font-size: 20px;
+    margin-bottom: 4px
+}
+.navbar img {
+    position: relative;
+    top: 17px; /* Moves 20px down from its normal position */
+    right: 260px; /* Moves 30px right from its normal position */
+}
+/* This portion puts the links on the right side*/
+.nav-links {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    padding-right: 50px;
+}
+/* This portion puts all of the links in line with each other*/
+.nav-links li {
+    display: inline;
+}
+/* This portion sections each button into their own space*/
+.nav-links li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 35px 20px;
+}
+/* This portion creates a highlight feature for each button on the navbar*/
+.nav-links li a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #333;
+/* This portion makes sure that when hovering over the buttons, the highlited region stays within the navbar */
+.navbar:after {
+    content: "";
+    display: table;
+    clear: both;
 }
+/* END OF BRIAN NAVBAR */
+
 
 /* Main styles */
 .hero {
