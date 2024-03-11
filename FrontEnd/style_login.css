@@ -1,0 +1,42 @@
+/* Login form styles */
+.login-form {
+    margin: 0 auto;
+    width: 300px;
+    background-color: #FFDAB9; /* Light orange */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form div {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-form input[type="submit"] {
+    width: 100%;
+    background-color: #ff9800; /* Dark orange */
+    color: #fff;
+    padding: 10px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #f57c00; /* Darker orange */
+}
+

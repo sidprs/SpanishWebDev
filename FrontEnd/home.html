@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Homepage</title>
+    <link rel="stylesheet" href="home_style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <h2>Profile</h2>
+            <form id="profileForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="grade">Grade:</label>
+                <input type="number" id="grade" name="grade" min="1" max="12" required><br><br>
+                <label for="class">Class:</label>
+                <input type="text" id="class" name="class" required><br><br>
+                <label for="teacher">Teacher:</label>
+                <input type="text" id="teacher" name="teacher" required><br><br>
+                <input type="submit" value="Update Profile">
+            </form>
+            <h3>Upcoming Assignments</h3>
+            <ul id="assignments">
+                <li>Jelqing Quiz - Due 03/15/2024</li>
+                <li>Edging Essay - Due 03/20/2024</li>
+                <li>None of this matters we gonna use python Essay</li>
+            </ul>
+            <h3>Grades</h3>
+            <table id="grades">
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Grade</th>
+                    </tr>
+				</thead>  <!-- This is all random names sorry -->
+                <tbody>
+                    <tr>
+                        <td>Spanish 369</td>
+                        <td>903%</td>
+                    </tr>
+                    <tr>
+                        <td>Ramadan</td>
+                        <td>85%</td>
+                    </tr>
+                    <!-- Add more rows as needed I have no idea what more to add -->
+                </tbody>
+            </table>
+        </div>
+        <div class="content">
+            <h1>Student [ ] Homepage</h1>
+            <p>This is where you can view your grades upcoming assignments and other information, this is kinda a bad idea since we gonna use Query to do this but idc.</p>
+        </div>
+    </div>
+    <script src="home_script.js"></script>
+</body>
+</html>
+
