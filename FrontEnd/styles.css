@@ -6,12 +6,14 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+	background-color: #FFE4B2; /* light orange background */
+    color: black; /* black text color */
+    font-family: Arial, sans-serif; /* specifying a font */
 }
 
 /* Header styles */
 header {
-    background-color: #f4f4f4;
+    background-color: #FFA500;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -19,7 +21,7 @@ header {
 }
 
 .logo img {
-    height: 40px;
+    height: 60px;
 }
 
 nav ul {
@@ -38,7 +40,7 @@ nav ul li a {
 
 /* Main styles */
 .hero {
-    background-color: #f0f0f0;
+    background-color: #F5F5F5;
     color: #333;
     padding: 100px 20px;
     text-align: center;
@@ -62,6 +64,15 @@ nav ul li a {
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
+}
+
+/* Additional styling for the buttons */
+.button-group {
+    margin-top: 20px; /* Adjust spacing between buttons and other content */
+}
+
+.button-group .btn {
+    margin-right: 10px; /* Adjust spacing between buttons */
 }
 
 .btn:hover {
